@@ -122,6 +122,7 @@ const questions = [
             }
         }
     }
+    
 ]
     
 // function to write README file
@@ -138,7 +139,7 @@ const writeToFile = fileContent => {
         });
     });
 };
-   
+  
 // function to initialize app
 function init() {
     inquirer.prompt(questions)
