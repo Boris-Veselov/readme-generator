@@ -1,8 +1,8 @@
 const fs = require('fs');
+const inquirer = require('inquirer');
+const index = require('../index.js');
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
+// function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   const badge = "";
     if (license === "MIT") {
@@ -17,24 +17,23 @@ function renderLicenseBadge(license) {
       return badge;
     }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function that returns the license link
+
 function renderLicenseLink(license) {
-  const license = "";
+  let licenseLink = "";
   if (license === "MIT") {
-    license = "https://opensource.org/licenses/MIT"
+    licenseLink = "https://opensource.org/licenses/MIT"
   } else if (license === "Apache") {
-    license = "https://opensource.org/licenses/Apache-2.0"
+    licenseLink = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)    "
   } else if (license === "IBM") {
-    license = "https://opensource.org/licenses/IPL-1.0"
+    licenseLink = "https://opensource.org/licenses/IPL-1.0"
   } else {
-      license = ""
+      licenseLink = ""
     }
-    return license;
+    return licenseLink;
   }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function that returns the license section of README
 function renderLicenseSection(license) {
   const licenseSection = ""
     if (license === "none") {
@@ -46,12 +45,12 @@ function renderLicenseSection(license) {
     return licenseSection;
 }
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
   return `
-  # ${data.title}
-  
-  # ${data.projectTitle}
+  # Ttile 
+  ${data.title}
 
   ## Description
   ${data.description}
@@ -63,14 +62,15 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Contribution
-  ${data.contribution}
+  ${data.credits}
 
   ## License
   ${data.license}
+  ${renderLicenseLink(data.license)}
 
   ## Contact Information
-  github.com/${data.github}
-  ${data.emailContact}`
+  github.com/${data.username}
+  ${data.email}`
 }
 
 module.exports = generateMarkdown;
