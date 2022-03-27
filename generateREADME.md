@@ -1,6 +1,6 @@
 
   # Ttile 
-  Readme generator
+  readme generator
 
   ## Table of Contents:
   
@@ -32,7 +32,7 @@
 
   ## Tests
   #### Run this command to test it:
-  #### open README.md
+  #### Run this command to test it
 
   ## Questions & Contact Information
   github.com/Boris-Veselov
