@@ -15,9 +15,9 @@ A command-line application that dynamically generates a professional README.md f
 https://boris-veselov.github.io/readme-generator/
 
 # Screenshot
-```md
+
 ![Sample README](./assets/images/demo.png)
-```
+
 
 # Contribution
 
