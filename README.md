@@ -18,10 +18,6 @@ https://boris-veselov.github.io/readme-generator/
 
 ![Sample README](./assets/images/demo.png)
 
-# Demo video
-
-[![asciicast](./assets/images/demo video.mov)
-
 # Contribution
 
 Made by Boris Veselov
