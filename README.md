@@ -20,7 +20,7 @@ https://boris-veselov.github.io/readme-generator/
 
 # Demo video
 
-![Sample README](./assets/images/demo video.mov)
+[![asciicast](./assets/images/demo video.mov)
 
 # Contribution
 
