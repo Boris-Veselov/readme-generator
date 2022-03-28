@@ -1,6 +1,6 @@
 
   # Ttile 
-  readme generator
+  f
 
   ## Table of Contents:
   
@@ -15,25 +15,25 @@
 
 
   ## Description
-  app to generate a README.md file
+  f
 
   ## Installation
-  text edit
+  f
 
   ## Usage
-  provide answers to questions
+  f
 
   ## Contribution
-  n/a
+  f
 
   ## License
-  None
-  
+  MIT
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    
 
   ## Tests
   #### Run this command to test it:
-  #### Run this command to test it
+  #### f
 
   ## Questions & Contact Information
-  github.com/Boris-Veselov
-  borisveselov@yahoo.com
+  github.com/f
+  f
