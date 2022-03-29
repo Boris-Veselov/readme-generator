@@ -1,6 +1,6 @@
 
   # Ttile 
-  f
+  readme
 
   ## Table of Contents:
   
@@ -15,25 +15,25 @@
 
 
   ## Description
-  f
+  writin
 
   ## Installation
-  f
+  text edit
 
   ## Usage
-  f
+  run it
 
   ## Contribution
-  f
+  boris
 
   ## License
-  MIT
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)    
+  Apache
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)    
 
   ## Tests
   #### Run this command to test it:
-  #### f
+  #### run it
 
   ## Questions & Contact Information
-  github.com/f
-  f
+  github.com/boris-veselov
+  bv@yahoo.com
