@@ -15,13 +15,13 @@
 
 
   ## Description
-  writin
+  create readme
 
   ## Installation
-  text edit
+  text-edit
 
   ## Usage
-  run it
+  check later
 
   ## Contribution
   boris
@@ -36,4 +36,4 @@
 
   ## Questions & Contact Information
   github.com/boris-veselov
-  bv@yahoo.com
+  ...
